@@ -39,6 +39,11 @@ export const Right = styled.div`
     text-decoration: none;
     font-size: 18px;
     padding-bottom: 5px;
+    transition: border-bottom-color 0.6s;
+    transition-timing-function: ease;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #1b1b1b;
 
     &:hover {
       border-bottom-width: 2px;
