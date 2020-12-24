@@ -7,13 +7,13 @@ function Header() {
   return (
     <Container>
       <Content>
-        <Left>
+        <Left href="#home">
           <img src={logo} alt="Davi Rodrigues" />
         </Left>
         <Right>
-          <a href="#">Sobre</a>
-          <a href="#">Skills</a>
-          <a href="#">Projetos</a>
+          <a href="#about">Sobre</a>
+          <a>Skills</a>
+          <a>Projetos</a>
         </Right>
       </Content>
     </Container>

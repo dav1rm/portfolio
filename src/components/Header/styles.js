@@ -23,7 +23,7 @@ export const Content = styled.div`
   justify-content: space-between;
 `;
 
-export const Left = styled.div`
+export const Left = styled.a`
   align-items: center;
 
   img {

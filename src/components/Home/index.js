@@ -5,7 +5,7 @@ import { Container, Content, Left, Right } from "./styles";
 
 function Home() {
   return (
-    <Container>
+    <Container id="home">
       <Content>
         <Left>
           <h2>Hi, my name is Davi</h2>

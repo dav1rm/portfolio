@@ -7,20 +7,23 @@ import { Container, Content, Left, Right, Links } from "./styles";
 
 function About() {
   return (
-    <Container>
+    <Container id="about">
       <Content>
         <Left>
           <div className="border">
             <img src={profile} alt="Davi" />
           </div>
           <Links>
-            <a>
+            <a href="https://github.com/davir8" target="_blank">
               <IoLogoGithub size={46} />
             </a>
-            <a>
+            <a
+              href="https://www.linkedin.com/in/davi-rodrigues-b98486177/"
+              target="_blank"
+            >
               <IoLogoLinkedin size={50} />
             </a>
-            <a>
+            <a href="https://www.instagram.com/davirm_" target="_blank">
               <IoLogoInstagram size={50} />
             </a>
           </Links>
