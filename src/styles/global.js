@@ -15,6 +15,11 @@ export default createGlobalStyle`
     height: 100vh;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
+
   body {
     background: #212121;
     color: #F2F2F2;
