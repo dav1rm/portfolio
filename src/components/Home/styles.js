@@ -20,7 +20,7 @@ export const Content = styled.div`
 `;
 
 export const Left = styled.div`
-  max-width: 470px;
+  max-width: 600px;
 
   align-items: center;
 
@@ -31,6 +31,11 @@ export const Left = styled.div`
 
   p {
     font-size: 18px;
+  }
+
+  p > strong {
+    color: #3bef2b;
+    font-weight: normal;
   }
 `;
 

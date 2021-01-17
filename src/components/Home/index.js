@@ -8,11 +8,15 @@ function Home() {
     <Container id="home">
       <Content>
         <Left>
-          <h2>Hi, my name is Davi</h2>
+          <h2>Oi, meu nome é Davi</h2>
           <p>
-            I’m a full stack developer and lover of user interface design.
-            Currentily I work with the tecnologies React.js, Node.js, React
-            Native and Figma.{" "}
+            Eu sou desenvolvedor full stack e gosto bastante de estudar sobre
+            ui/ux design nas horas vagas. Atualmente trabalho com a stack{" "}
+            <strong>react js</strong>, <strong>node js</strong> e{" "}
+            <strong>react native</strong>. No entanto ja tive bastante
+            experiência com <strong>laravel (php)</strong>.{"\n"} Para os
+            estudos sobre design eu gosto de utilizar como ferramenta o{" "}
+            <strong>figma</strong>.
           </p>
         </Left>
         <Right>
