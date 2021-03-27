@@ -12,8 +12,8 @@ function Header() {
         </Left>
         <Right>
           <a href="#about">Sobre</a>
-          <a>Skills</a>
-          <a>Projetos</a>
+          {/* <a>Skills</a>
+          <a>Projetos</a> */}
         </Right>
       </Content>
     </Container>

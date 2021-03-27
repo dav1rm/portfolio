@@ -3,11 +3,14 @@ import { IoLogoLinkedin, IoLogoGithub, IoLogoInstagram } from "react-icons/io";
 
 import profile from "../../assets/profile.png";
 import icons from "../../assets/icons.png";
-import { Container, Content, Left, Right, Links } from "./styles";
+import { Container, Header, Content, Left, Right, Links } from "./styles";
 
 function About() {
   return (
     <Container id="about">
+      <Header>
+        <h4>Sobre</h4>
+      </Header>
       <Content>
         <Left>
           <div className="border">
@@ -31,13 +34,8 @@ function About() {
         <Right>
           <img className="lights" src={icons} alt="Lights" />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultricies
-            sit suspendisse ullamcorper sit auctor sed. Ut amet turpis ultrices
-            est nisl purus posuere dui aliquam. Convallis nisl viverra semper
-            consectetur posuere sollicitudin arcu. Et sociis nulla ut ut amet
-            mauris in. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Ultricies sit suspendisse ullamcorper sit auctor sed. Ut amet turpis
-            ultrices est nisl purus posuere dui aliquam.
+            Sou formado no curso Técnico em Informática pelo IFRN e atualmente estou
+            concluindo a graduação em Tecnologia da Informação pela UFRN.
           </p>
         </Right>
       </Content>

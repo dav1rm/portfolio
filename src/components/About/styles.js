@@ -1,12 +1,24 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  height: 100vh;
+  height: calc(100vh - 70px);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: #212121;
+`;
+
+export const Header = styled.div`
+  max-width: 1140px;
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  align-items: flex-end;
+
+  h4 {
+    font-size: 22px;
+  }
 `;
 
 export const Content = styled.div`
